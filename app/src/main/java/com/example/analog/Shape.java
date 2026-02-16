@@ -4,9 +4,9 @@ public abstract class Shape {
     protected int x;
     protected int y;
 
-    String color = "blue";
+    String color = "red";
 
-    public Shape(int x, int y)
+    public Shape()
     {
         this.x = x;
         this.y = y;
